@@ -1,0 +1,30 @@
+body{
+    text-align: center;
+    background-image: url("images/background_doubt.jpg");
+    background-size: cover;
+    font-size: larger;
+}
+h1{
+    background-color: rgb(244, 221, 88);
+    border-radius: 30px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.7);
+    
+}
+.inp{
+    height: 300px;
+    width: 300px;
+    border-radius: 10px;
+    border: 4px black solid;
+    text-align: start;
+    opacity: 90%;
+    font-size: larger;
+    background-image: url("images/bg.jpg");
+    background-size: cover;
+    
+}
+.addn{
+    background-color: rgb(69, 83, 231);
+    font-size: larger;
+    border-radius: 10px;
+    color: white;
+}
