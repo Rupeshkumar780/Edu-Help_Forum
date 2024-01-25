@@ -61,11 +61,9 @@ nav li:active{
 }
 .doubt:hover{
     border: 5px white solid;
-    border: border-box;
 }
 .upload:hover{
     border: 5px white solid;
-    border: border-box;
 }
 .logout{
     text-decoration: none;
