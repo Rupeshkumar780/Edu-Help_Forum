@@ -61,9 +61,11 @@ nav li:active{
 }
 .doubt:hover{
     border: 5px white solid;
+    border: border-box;
 }
 .upload:hover{
     border: 5px white solid;
+    border: border-box;
 }
 .logout{
     text-decoration: none;
@@ -109,19 +111,7 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
-.post{
-    height: 250px;
-    width: 250px;
-    background-color: rgb(251, 230, 108);
-    border-radius: 30px;
-    text-align: center;
-    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.6);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
+}
 .home_b{
     background-color: rgb(99, 122, 237);
     color: white;
