@@ -30,5 +30,12 @@ sign_button.addEventListener('click' ,(e) => {
         })
         .catch((err) => {
             console.log(err.message)
+            // Check if the error code indicates that the email is already in use
+            if (err.code === "auth/email-already-in-use") {
+                alert("Email is already in use. Please choose a different email or login.");
+            } else {
+                // Handle other registration errors if needed
+                alert("Registration failed. Please try again.");
+            }
         })
 })
