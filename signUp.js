@@ -30,7 +30,7 @@ sign_button.addEventListener('click' ,(e) => {
         })
         .catch((err) => {
             console.log(err.message)
-            // Check if the error code indicates that the email is already in use
+            // Check if the email is already in use Or not
             if (err.code === "auth/email-already-in-use") {
                 alert("Email is already in use. Please choose a different email or login.");
             } else {
