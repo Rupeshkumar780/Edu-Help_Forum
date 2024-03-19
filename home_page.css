@@ -135,11 +135,10 @@ footer {
     position: absolute;
     top: 26%;
     left: 25%;
-    width: 600px;
-    height: 300px;
+    width: 700px;
+    height: 500px;
     opacity: 60%;
-    border-radius: 20px;
-    margin-bottom:5px;
+    border-radius: 10px;
 }
 .hrd{
     margin: 0;
