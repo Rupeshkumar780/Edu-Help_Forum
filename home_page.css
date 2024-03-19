@@ -20,6 +20,7 @@ img{
     margin-left: 20px;
     width: 200px;
     height: 110px;
+    border-radius: 20px;
 }
 .heading{
     position: absolute;
@@ -109,7 +110,8 @@ a{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-}
+}
+
 .home_b{
     background-color: rgb(99, 122, 237);
     color: white;
