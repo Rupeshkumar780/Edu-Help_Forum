@@ -5,7 +5,10 @@ body {
     padding: 0;
     background-color: rgb(182, 244, 244);
     background-image: url("images/back.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
     
 }
 section {
