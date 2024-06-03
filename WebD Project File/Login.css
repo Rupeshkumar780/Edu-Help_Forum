@@ -66,6 +66,7 @@ button{
     background-color: crimson;
     margin-left: 50px;
     padding: 2px 8px;
+    border-radius: 5px;
 }
 @keyframes box{
     0%{background-color:#B4D4FF}
