@@ -12,7 +12,13 @@ header{
 body{
     background-color:#84d0de;
     background-image: url("images/background.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 h1{
     color:brown;
@@ -47,7 +53,11 @@ h2{
 .inputbox{
     font-size: large;
 }
-#pass,#email{
+#email{
+    background-color: chartreuse;
+    margin-bottom: 15px;
+}
+#pass{
     background-color: chartreuse;
 }
 button{
