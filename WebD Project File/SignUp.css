@@ -10,7 +10,10 @@ body{
     margin: 0;
     padding: 0;
     background-image: url("images/background.jpg");
+    background-attachment: fixed;
     background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
 }
 h1{
     color:brown;
